@@ -58,4 +58,4 @@ colOrder = c(ncol(x)-1,ncol(x),1:(ncol(x)-2))
 x <- x[,colOrder]
 
 # write tidy data set
-write.table(x,file="tidyuciwearables.txt",sep=" ",row.names=FALSE)
+write.table(x,file="tidyuciwearables.txt",sep=" ",row.name=FALSE)
